@@ -1,0 +1,20 @@
+.contenedor-cabezal{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+.cabezal{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+}
+
+.line-g{
+    background-color: green;
+    display: flex;
+    
+}
+
+

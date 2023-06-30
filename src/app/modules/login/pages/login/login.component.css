@@ -1,0 +1,24 @@
+.contenedor-login{
+    width:  90%;
+    max-width: 1200 px;
+    margin: auto;
+    padding: 40px 0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.contenedor-registro{
+    width:  90%;
+    max-width: 1200 px;
+    margin: auto;
+    padding: 40px 0;
+}
+
+
+.card-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

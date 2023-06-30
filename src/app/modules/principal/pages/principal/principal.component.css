@@ -1,0 +1,39 @@
+.contenedor{
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px 0;
+    
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.contenedor-calculadora{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+   
+}
+.card{
+    border-radius: 10px;
+    min-height: 80px;
+    font-weight: bold;
+    padding: 20px;
+    position: relative; 
+    overflow: hidden;
+    background-size: cover;
+    background-position: center center;
+    background-color: aliceblue;
+    
+}
+
+
+.card .texto{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+
